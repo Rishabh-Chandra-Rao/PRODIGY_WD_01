@@ -1,0 +1,300 @@
+/* -----------------------------------------------------top-navbar------------------------------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+ .nev-bar{
+  
+  background-color: #5cdfc0;
+  display: flex;
+ justify-content: center;
+   
+} 
+nav{
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+.logo img{
+  width: 88px;
+}
+
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+  width: 123px;
+  font-size: 20px;
+}
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  font-weight: bolder;
+}
+.nev-bar .search-container {
+  float: right;
+  align-items: center;
+  
+}
+.nev-bar input[type=text] {
+  padding: 6px;
+  margin-top: 11px;
+  font-size: 17px;
+  border: none;
+  width: 535px;
+  height: 39px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nev-bar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 11px;
+  margin-right: 16px;
+  background: #fff;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: #5cdfc0;
+  height: 39px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* -----------------------------------------------------------top-banner----------------------------------------------------------------------- */
+.topbanner{
+    margin-top: 2px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #5cdfc0;
+    
+}
+
+.logo2{
+    width: 12%;
+    cursor: pointer;
+    position: relative;
+    left: 23%;
+    
+}
+.topbanner h1{
+    width: 45%;
+    cursor: pointer;
+    position: relative;
+    left: 23%;
+    font-size: 60px;
+    color: aliceblue;
+}
+  
+.bestnots{
+    
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.notes{
+    width: 3vw;
+    cursor: pointer;
+    position: relative;
+    left: 41%;
+    
+}
+h2{
+  font-size: 33px;
+  text-align: center;
+}
+
+.sub-title {
+    
+    font-size: 40px;
+    font-weight: 710   ;
+    color: #333;
+    text-align: center;
+    position: relative;
+    left: 41%;
+    
+}
+/* ----------------------------------------------------------sub-navbar------------------------------------------------------------------------------------ */
+.manu-bar {
+    background: #5cdfc0;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+  .manu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: aliceblue;
+    
+  }
+  .manu-bar ul li{
+    width: 182px;
+    margin: 1px;
+    padding: 15px;
+  }
+  .manu-bar ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  /* .active, .manu-bar ul li:hover{
+      background: #333;
+     border-radius: 3px;
+  } */
+  .sub-manu-1{
+    display: none;
+  }
+
+  .manu-bar ul li:hover .sub-manu-1{
+    display: block;
+    position: absolute;
+    background: #5cdfc0;
+    margin-top: 15px;
+    margin-left: -15px;
+  }
+  .manu-bar ul li:hover .sub-manu-1 ul{
+    display: block;
+    margin: 10px;
+  }
+  .manu-bar ul li:hover .sub-manu-1 ul li {
+    width: 150px;
+    padding:10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+  }
+  .manu-bar ul li:hover .sub-manu-1 ul li:last-child{
+    border-bottom: none;
+  }
+  .manu-bar ul li:hover .sub-manu-1 ul li a:hover{
+    color: salmon;
+  }
+  .fa-caret-right{
+    float: right;
+  }
+  .sub-manu-2{
+    display: none;
+    
+  }
+  .hover-me:hover .sub-manu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: #5cdfc0;
+  }
+/* --------------------------------------------------------------shopping-card----------------------------------------------------------- */
+  /* shopping card */
+   .continer{
+    padding: 0 7%;
+   }
+
+   .sub-title2 {
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    /* text-shadow:5px 8px 15px  #888888; */
+}
+
+.shopping-card{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 86px;
+    margin-bottom: 30px;
+    margin-top: 20px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 65px;
+    margin-bottom: 30px;
+}
+  .card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 12px;
+    text-align: center;
+    font-family: arial;
+    width: 266px;
+    padding: 8px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 12px;
+    text-align: center;
+    font-family: arial;
+    padding: 8px;
+  }
+  
+  .price {
+    color: #5cdfc0;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    /* background-color:#5cdfc0; */
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .card .stars {
+    padding:6px
+
+ }
+ .card .stars i{
+  color: #5cdfc0;
+}
+
+.card .buttons{
+  
+  display: flex;
+  gap:1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+
+.card .buttons a{
+  text-decoration: none;
+  padding:4px;
+  font-size: 18px;
+  color:#444;
+  border:.1rem solid #444;
+  width: 225px;
+  margin-bottom: 12px;
+  border-radius: 23px;
+}
+.card .buttons i{
+  color: #5cdfc0;
+  padding-left: 18px;
+}
+
+.card .buttons a.buy:hover{
+  background: #5cdfc0;
+  color:#fff;
+}
